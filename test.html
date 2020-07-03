@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <style type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 
   /* CLIENT-SPECIFIC STYLES */
   body, table, td, a {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -48,7 +49,17 @@
   }
 
   /* Universal styles for links and stuff */
-
+    body {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 400;
+    }
+    
+    .title {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 0.7
+    }
 
   /* Responsive styles */
 
@@ -56,37 +67,43 @@
 </head>
 <body id="body" style="margin: 0 !important; padding:  0 !important;">
   
-  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td>
-        <table align="center" style="background-color: #00F0B3" border="0" cellpadding="0" cellspacing="0" role="presentation" width="700">
+        <table border="0" cellpadding="0" cellspacing="0" width="600">
+         <!-- DATA / PREÇO -->
+		<table align=˜center˜ style="text-align: center;" border="0" cellpadding="0" cellspacing="0" width="600">
           <tr>
-            <td align="center" style="padding: 20px 40px; line-height: 24px;">
-              <img style="width: 100px" src="https://www.mobygo.com.br/assets/images/icon_mobygo.png">
-                                     
+            <td>             
+              <h2 class="title" style="margin-top: 40px;">20 de março de 2020</h2>
+              <h2 class="title">Total R$ 18,30</h2>             
             </td>
-            
           </tr>
-        </table> 
-        <table align="center" style="background-color: #00F0B3" border="0" cellpadding="0" cellspacing="0" role="presentation" width="700">
-          <tr>
-            <td align="center" style="padding: 0 40px; line-height: 34px;">
-              <p style="font-size: 24px">Agradecemos pela companhia, <br> Marisa</p>                                  
-            </td>
-            
-          </tr>
-        </table> 
-        <table align="center"  border="0" cellpadding="0" cellspacing="0" role="presentation" width="700">
+		</table>
+          
+          <!-- IMG -->
+		 <table border="0" cellpadding="0" cellspacing="0" width="600"  style="background-color: #00F0B3; margin-top: 60px;">
+		 	<tr>
+		 	<td style="text-align: center;">
+		 		<img src="https://www.mobygo.com.br/assets/images/icon_mobygo.png" style="max-width: 180px; padding: 30px;; text-align: center;">	
+		 		<p style="font-size: 24px; ">Agradecemos pela companhia, <span style="font-weight: 700;"> Marisa </span></p>
+		 		<p style="padding-bottom: 20px;">Esperamos que você tenha aproveitado a viagem <br> e tido uma ótima experiência conosco.</p>
+		 	</td>
+		 	</tr>		 		 	
+		 </table>
+		 
+		 <!-- Precos -->
+		 <table   border="0" cellpadding="0" cellspacing="0" role="presentation" width="600">
         <tr>
           <td>
-            <table align="center" style="margin: 40px auto; border-bottom: 3px solid #219A87 " border="0" cellpadding="0" cellspacing="0" width="90%">
+            <table  style="margin: 40px auto; border-bottom: 3px solid #219A87 " border="0" cellpadding="0" cellspacing="0" width="90%">
               <tr>
                 <td>
                 
                 <!-- Left Column -->
                   <table  align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
                     <tr>
-                      <td style="padding: 20px; line-height: 10px;">
+                      <td style="padding: 20px 0; line-height: 10px;">
                         <p style="font-size: 26px; margin: 0 0 0px 0;">Total</p>
                       </td>
                       </tr>
@@ -95,7 +112,7 @@
                   <!-- Right Column -->
                   <table align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
                     <tr>
-                      <td align="right" style="padding: 20px ; line-height: 10px;">
+                      <td align="right" style="padding: 20px 0 ; line-height: 10px;">
                         <p style="font-size: 26px; margin: 0 0 0px 0;">R$ 17,13</p>        
                       </td>
                     </tr>
@@ -106,8 +123,9 @@
             </td>
           </tr>
         </table>
-          <!-- Two Columns  -->
-          <table align="center"  border="0" cellpadding="0" cellspacing="0" role="presentation" width="700">
+		
+		<!-- Two Columns  -->
+          <table   border="0" cellpadding="0" cellspacing="0" role="presentation" width="600">
           <tr>
             <td>
               <table style="margin: 0 auto; border-bottom: 3px solid #219A87 " border="0" cellpadding="0" cellspacing="0" width="90%">
@@ -116,7 +134,7 @@
                    <!-- Left Column -->
                     <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
                       <tr>
-                        <td style="padding: 20px; line-height: 10px;">
+                        <td style="padding: 20px 0; line-height: 10px;">
                           <p style="font-size: 18px; margin: 0 0 0px 0;">Preço da viagem</p>
                         </td>
                       </tr>
@@ -124,7 +142,7 @@
                     <!-- Right Column -->
                     <table align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
                     <tr>
-                      <td align="right" style="padding: 20px ; line-height: 10px;">
+                      <td align="right" style="padding: 20px 0; line-height: 10px;">
                         <p style="font-size: 18px; margin: 0 0 0px 0;">R$ 17,13</p>        
                       </td>
                       </tr>
@@ -135,16 +153,16 @@
             </td>
           </tr>  
         </table>  
-         <table  align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="700">
+         <table   border="0" cellpadding="0" cellspacing="0" role="presentation" width="600">
           <tr>
             <td>
-              <table style="margin: 60px auto; border-bottom: 3px solid #219A87 " border="0" cellpadding="0" cellspacing="0" width="90%">
+              <table style="margin: 20px auto; border-bottom: 3px solid #219A87 " border="0" cellpadding="0" cellspacing="0" width="90%">
                 <tr>
                   <td>
                    <!-- Left Column -->
                     <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
                       <tr>
-                        <td style="padding: 20px; line-height: 20px;">
+                        <td style="padding: 20px 0; line-height: 20px;">
                           <p style="font-size: 18px; margin: 0 0 0px 0;">Subtotal</p>
                           <p>Voucher Desconto</p>
                         </td>
@@ -153,7 +171,7 @@
                     <!-- Right Column -->
                     <table  align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
                     <tr>
-                      <td align="right" style="padding: 20px ; line-height: 20px;">
+                      <td align="right" style="padding: 20px 0; line-height: 20px;">
                         <p style="font-size: 18px; margin: 0 0 0px 0;">R$ 17,13</p>        
                         <p style="font-size: 18px;">R$ 0,00</p>        
                       </td>
@@ -165,25 +183,36 @@
             </td>
           </tr>  
         </table>
-          <table align="center"  border="0" cellpadding="0" cellspacing="0" role="presentation" width="700">
+		
+		<table   border="0" cellpadding="0" cellspacing="0" role="presentation" width="600">
           <tr>
             <td>
               <table style="margin:0 auto; border-bottom: 3px solid #219A87 " border="0" cellpadding="0" cellspacing="0" width="90%">
                 <tr>
                   <td>
                    <!-- Left Column -->
-                    <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="33.333%">
                       <tr>
-                        <td style="padding: 20px; line-height: 20px;">
-                          <p style="font-size: 18px; margin: 0 0 0px 0;">Valor Cobrado</p>
-                          <p>IMG CARTAO</p>
+                        <td style="padding: 20px 0; line-height: 20px 0;">
+                          <p style="font-size: 18px; margin: 0 0 0 0;">Valor Cobrado</p>
+                          <img src="https://firebasestorage.googleapis.com/v0/b/moby-go-app.appspot.com/o/email-recibos%2Fcredit-card.png?alt=media&token=53c323b6-de82-4b6f-9d66-a3cb9b29a578" style="max-width: 40px; padding: 10px 0; text-align: left; display: inline;">
+						  <table align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="33.333%">
+						  	<tr>
+		                       <td style="padding: 0; line-height: 33px;">
+								 <p> 8834 </p>
+		                       </td>
+						  	</tr>
+						   </table>
                         </td>
+						
                       </tr>
                     </table>
+					
+					
                     <!-- Right Column -->
-                    <table align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%">
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="33.33%">
                     <tr>
-                      <td align="right" style="padding: 20px ; line-height: 20px;">
+                      <td align="right" style="padding: 20px 0 ; line-height: 20px;">
                         <p style="font-size: 18px; margin: 0 0 0px 0;"></p>   <br>     
                         <p style="font-size: 18px;">R$ 17,13</p>        
                       </td>
@@ -194,9 +223,21 @@
               </table>
             </td>
           </tr>  
-        </table>    
+        </table>
+		
+		
+		<table border="0" cellpadding="0" cellspacing="0" width="600"  style="margin-top: 60px;">
+		 	<tr>
+		 	<td style="text-align: center;">
+		 		<img src="https://firebasestorage.googleapis.com/v0/b/moby-go-app.appspot.com/o/email-recibos%2Flogo-moby.png?alt=media&token=1446c393-a185-4d25-9a7f-23002495b29d" style="max-width: 180px; padding: 30px;; text-align: center;">	
+		 	</td>
+		 	</tr>		 		 	
+		 </table>
+
+		 
           
-          
+        </table>
+        
       </td>
     </tr>
   </table>
